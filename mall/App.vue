@@ -14,6 +14,7 @@
 
 <style>
 	/*每个页面公共css */
+	@import "uview-ui/index.scss";
 	@import url("/static/iconfont/iconfont.css");
 	page{
 		height: 100%;
