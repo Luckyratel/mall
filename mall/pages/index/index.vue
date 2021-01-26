@@ -3,7 +3,8 @@
 	
 		<!-- <specification></specification> -->
 		<!-- <let-search v-model="title"></let-search> -->
-		<let-condition :list="conditionList" @change="conditonChange"></let-condition>
+		<!-- <let-condition :list="conditionList" @change="conditonChange"></let-condition> -->
+		<let-goods></let-goods>
 	</view>
 </template>
 
