@@ -19,5 +19,6 @@
 	page{
 		height: 100%;
 		width: 100%;
+		background: #F0F0F0;
 	}
 </style>

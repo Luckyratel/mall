@@ -8,8 +8,29 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path":"pages/tabber/me",
+			"style": {
+				"navigationBarTitleText":"我的",
+				"navigationStyle":"custom"
+			}
 		}
 	],
+	"tabBar":{
+			"backgroundColor":"#FFFFFF",
+			"selectedColor":"#dd524d",
+			"list":[
+				{
+					"text":"首页",
+					"pagePath":"pages/index/index"
+				},
+				{
+					"text":"我的",
+					"pagePath":"pages/tabber/me"
+				}
+			]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
